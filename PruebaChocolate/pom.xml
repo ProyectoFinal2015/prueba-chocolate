@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.proyecto</groupId>
+	<artifactId>PruebaChocolate</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<name>PruebaChocolate</name>
+
+	<parent>
+		<groupId>org.uqbar.chocolate</groupId>
+		<artifactId>chocolate-parent-project</artifactId>
+		<version>1.0.0</version>
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.uqbar.chocolate</groupId>
+			<artifactId>chocolate-core</artifactId>
+			<version>${chocolate.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.uqbar.chocolate</groupId>
+			<artifactId>chocolate-launcher-desktop</artifactId>
+			<version>${chocolate.version}</version>
+		</dependency>
+	</dependencies>
+</project>
